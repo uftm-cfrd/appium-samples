@@ -1,0 +1,18 @@
+{
+  "name": "uftm-codeceptjs-appium",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "codeceptjs": "^3.1.3"
+  },
+  "dependencies": {
+    "webdriverio": "^7.16.4"
+  },
+  "description": ""
+}
