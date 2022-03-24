@@ -6,6 +6,6 @@
 1. Once the dependencies are downloaded, run the NUnit test from the Test Explorer
 
 ### Samples
-- **donetClientV5/AOSDemo**: This is a basic Appium sample written in C# for both, Android and iOS, platforms. It uses the C#/Dotnet Appium client/WebDriver version 5.0.0-beta01
+- **donetClientV5/AOSDemo**: This is a basic Appium sample written in C# for both, Android and iOS, platforms on the on Advantage Shopping demo app. It uses the C#/Dotnet Appium client/WebDriver version 5.0.0-beta01
 - **Appium_iOSDemo**: This is a basic Appium sample written in C# for iOS. It uses the C#/Dotnet Appium client/WebDriver version 4.3.1
 - **Appium_AndroidDemo**: This is a basic Appium sample written in C# for Android. It uses the C#/Dotnet Appium client/WebDriver version 4.3.1
