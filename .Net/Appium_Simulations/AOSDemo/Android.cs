@@ -151,8 +151,9 @@ namespace Appium_Simulations
 
         /// <summary>
         /// Performs swipe on element
-        /// </summary>
-        /// <param name="elementId">The id of the element to be swiped</param>
+        /// </summary>        
+        /// <param name="location">Object location</param>
+        /// <param name="size">Object size</param>
         /// <param name="direction">Swipe direction. Mandatory value. Acceptable values are: up, down, left and right (case insensitive)</param>
         /// <param name="percent">The size of the swipe as a percentage of the swipe area size. Valid values must be float numbers in range 0..1, where 1.0 is 100%</param>
 
