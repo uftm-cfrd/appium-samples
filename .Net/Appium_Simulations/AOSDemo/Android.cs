@@ -19,7 +19,7 @@ namespace Appium_Simulations
     public class Android
     {
         public static AndroidDriver driver;
-        public static String UFTM_SERVER = "http://10.5.30.148:8080";
+        public static String UFTM_SERVER = "http://uftm-server:8080";
         //Update the below variable to indicate whether you want to use Appium v2 or the default Appium v1
         private static Boolean useAppiumV2 = true;
 
