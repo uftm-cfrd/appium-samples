@@ -102,8 +102,7 @@ public class Simulation {
         simulationData.put("authResultDetails", authResultDetails);
 
         sensorSimulationMap.put("simulationData", simulationData);
-        sensorSimulationMap.put("action", "authentication");
-        sensorSimulationMap.put("simulateCount", "0");
+        sensorSimulationMap.put("action", "authentication");        
 
         //Execute the script and convert the result to a JSON string
         String simulationResult = new Gson().toJson(driver.executeScript("mc:sensorSimulation", sensorSimulationMap));
