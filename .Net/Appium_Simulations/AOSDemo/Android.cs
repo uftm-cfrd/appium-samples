@@ -113,8 +113,7 @@ namespace Appium_Simulations
                 { "authResultDetails", authResultDetails }
             };
             sensorSimulationMap.Add("simulationData", simulationData);
-            sensorSimulationMap.Add("action", "authentication");
-            sensorSimulationMap.Add("simulateCount", "0");            
+            sensorSimulationMap.Add("action", "authentication");                       
 
             string simulationResult = JsonConvert.SerializeObject(driver.ExecuteScript("mc:sensorSimulation", sensorSimulationMap));
             return JToken.Parse(simulationResult)["message"].ToString();
